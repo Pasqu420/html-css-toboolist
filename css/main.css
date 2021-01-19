@@ -1,0 +1,166 @@
+/* REGOLE GENERALI */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  width: 100%;
+  background-color: rgba(240,240,240, 0.9);
+  padding: 1%;
+}
+
+
+.container{
+  width: 75vw;
+  height: 85vh;
+  background-color: white;
+  margin: auto;
+  margin-top: 0.2%;
+}
+
+
+.sottotesto{
+  display:block;
+  font-size: 3vh;
+  margin: 0.5%;
+}
+
+.check.mark{
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 0.02% 0% 0% 0.25%;
+  font-size: 2vh;
+}
+
+.red.cross{
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 0.02% 0% 0% 0.25%;
+  font-size: 2vh;
+}
+
+.contenuto{
+  font-weight: 400;
+  font-size: 90%;
+  margin-left: 1%;
+}
+
+.link{
+  font-size: 40%;
+  text-decoration: none;
+  padding: 0.5%;
+  border-radius: 40%;
+  margin-left: 0.5%;
+  color: white;
+}
+
+.p{
+  font-size: 5vh;
+  vertical-align: middle;
+}
+/* SEZIONE HEADER */
+
+header{
+  width: 100%;
+}
+
+#logo{
+  width: 4vw;
+  height: 8vh;
+  vertical-align: middle;
+  margin-left: 1.5vw;
+}
+
+header h1{
+  box-sizing: border-box;
+  font-size: 10vh;
+  display: inline-block;
+  padding: 0% 1%;
+  vertical-align: middle;
+}
+
+/* section add */
+
+#add{
+  width: 75vw;
+  height: 10vh;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 1%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.add{
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 3vh;
+  padding: 0.9%;
+}
+
+.add.task{
+  background-color: blue;
+  color: white;
+  display:inline-block;
+  margin: 0% 1% 0% 5%;
+
+}
+
+.add.section{
+  color: grey;
+}
+
+/* Section new task */
+
+.link.editorial{
+  background-color: skyblue;
+}
+
+.down-arrow{
+  width: 2vw;
+  height: 5vh;
+  vertical-align: middle;
+}
+
+.todoolist.new-task{
+  padding: 8vh 0vw 0vh 4.5vw;
+}
+
+
+/* section today */
+
+.link.q1{
+  background-color: rgba(	153,50,204, 0.5);
+}
+
+.link.recruiting{
+  background-color: rgba(	127,255,0, 0.5);
+}
+
+.link.mobile{
+  background-color: rgba(		255,127,80, 0.5);
+}
+
+.todoolist.today{
+  padding: 5vh 0vw 0vh 4.5vw;
+}
+
+/* section upcoming */
+
+.todoolist.upcoming{
+  padding: 5vh 0vw 0vh 4.5vw;
+}
+
+.link.website{
+  background-color: rgba(	153,50,204, 0.5);
+}
+
+.link.sales{
+  background-color: rgba(	153,50,204, 0.5);
+}
