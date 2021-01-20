@@ -12,10 +12,32 @@ main{
   padding: 1%;
 }
 
+ul{
+  list-style: none;
+}
+
+.contenuto::before{
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0% 0.3% 0% 0.25%;
+  font-size: 2vh;
+}
+
+.contenuto.check::before{
+  content: ' \2714';
+  color: green;
+  border-color: green;
+}
+
+.contenuto.cross::before{
+  content: ' \2718';
+  color: red;
+  border-color: red;
+}
 
 .container{
   width: 75vw;
-  height: 85vh;
+  height: 80vh;
   background-color: white;
   margin: auto;
   margin-top: 0.2%;
@@ -24,24 +46,8 @@ main{
 
 .sottotesto{
   display:block;
-  font-size: 3vh;
+  font-size: 2.6vh;
   margin: 0.5%;
-}
-
-.check.mark{
-  color: green;
-  border: 1px solid green;
-  border-radius: 50%;
-  padding: 0.02% 0% 0% 0.25%;
-  font-size: 2vh;
-}
-
-.red.cross{
-  color: red;
-  border: 1px solid red;
-  border-radius: 50%;
-  padding: 0.02% 0% 0% 0.25%;
-  font-size: 2vh;
 }
 
 .contenuto{
@@ -59,10 +65,12 @@ main{
   color: white;
 }
 
-.p{
-  font-size: 5vh;
+.new-task, .today, .upcoming{
+  font-size: 4vh;
   vertical-align: middle;
+  margin-left: 1%;
 }
+
 /* SEZIONE HEADER */
 
 header{
@@ -158,7 +166,7 @@ header h1{
 }
 
 .link.website{
-  background-color: rgba(	153,50,204, 0.5);
+  background-color: rgba(	153,5,20, 0.5);
 }
 
 .link.sales{
